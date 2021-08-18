@@ -1,0 +1,19 @@
+body {
+  margin: 0px;
+  font-family: 'Mulish', sans-serif;
+  background-image: radial-gradient(
+    circle at 45.31% 23.38%,
+    #00272c 0,
+    #032225 10%,
+    #061c1d 20%,
+    #051615 30%,
+    #030e0c 40%,
+    #000000 50%,
+    #000000 60%,
+    #000000 70%,
+    #000000 80%,
+    #000000 90%,
+    #000000 100%
+  );
+  overflow-x: hidden;
+}

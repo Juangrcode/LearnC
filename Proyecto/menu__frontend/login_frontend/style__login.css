@@ -1,0 +1,151 @@
+.header {
+  display: block;
+  float: left;
+  padding: 0%;
+  margin: 0%;
+  background-color: whitesmoke;
+  width: 56%;
+  height: 50%;
+}
+.header__logo {
+  width: 550px;
+  height: 550px;
+  display: block;
+  margin: 0%;
+  position: relative;
+  top: -60px;
+}
+.header_tittle {
+  margin: 0%;
+  text-align: center;
+  font-size: 85px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  position: relative;
+  top: -150px;
+}
+.login {
+  display: flex;
+  position: relative;
+  left: 200px;
+  top: 7px;
+}
+.login__container {
+  border: 2px solid whitesmoke;
+  border-radius: 40px;
+  color: white;
+  padding: 60px 68px 40px;
+  min-height: 540px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.login__cotainer--form {
+  display: flex;
+  flex-direction: column;
+}
+.login__container--form label {
+  font-size: 24px;
+}
+.login__container--remenber-me {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.login__container--remenber-me a {
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+}
+.login__container--remenber-me :hover {
+  color: white;
+  text-decoration: underline;
+}
+.login__container-img-google {
+  width: 10px;
+  height: 10px;
+}
+.login__container--social-media > div {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.login__container--social-media > div > img {
+  margin-right: 10px;
+}
+.login__container--register {
+  font-size: 14px;
+}
+.login__container--register a {
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+.login__container--register a:hover {
+  text-decoration: underline;
+}
+.input {
+  background-color: transparent;
+  border-left: 0px;
+  border-top: 0px;
+  border-right: 0px;
+  border-bottom: 2px solid white;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 20px;
+  padding: 0px 20px;
+  outline: none;
+  height: 50px;
+}
+::placeholder {
+  color: white;
+}
+.button {
+  cursor: pointer;
+  margin: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 22px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  display: inline-block;
+  color: #ffffff;
+  border: none;
+  background-color: transparent;
+}
+.button:hover {
+  background-color: transparent;
+  color: rgb(0, 0, 0);
+}
+.footer {
+  position: relative;
+  left: 217px;
+  bottom: 35px;
+}
+.footer a {
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: none;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+@media only screen and (max-width: 600px) {
+  .login__container {
+    background-color: transparent;
+    border: none;
+    padding: 0px;
+    width: 100%;
+  }
+  .footer {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}

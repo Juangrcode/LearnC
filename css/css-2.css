@@ -1,0 +1,10 @@
+/*(Tipo de selector)*/
+.se {
+  width: 20px; /* Ancho*/
+  height: 20px; /* Alto*/
+  background-color: antiquewhite; /* Background o con el Background color funcionan de misma manera, aunque con background-color se puede usar mas cosas y color para letras*/
+  padding: 20px; /* Define la distancia del borde de un elemento hasta su contenido. (lo que quiere decir que mi elemento tendrá un “margen interno” en todos sus lados de 2px). */
+  border: 2px solid; /* El borde del elemento, tambien se le puede poner diferente color */
+  box-sizing: border-box; /* Se usa para que restablesca el tamaño que se le puso anteriormente con width y height */
+  margin: 0; /* Se usa para quitar el borde por defecto que nos da la pagina, se le puse quitar o aumentar mas. Con margin-bottom se usa para quitar o aumentar el espacio del lado de abajo. Se le puede aplicar poniendole a cada lado seguidamente despues de otro px pero a manecilla del reloj*/
+}

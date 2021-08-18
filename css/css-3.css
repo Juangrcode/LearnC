@@ -1,0 +1,19 @@
+/*(Tipo de selector)*/
+.se {
+  background-color: rgb(
+    red,
+    green,
+    blue
+  ); /* Donde la R significa Red, G significa Green y B significa Blue; por lo que escribimos rgb(red, green, blue)*/
+  border: 20px; /* Da el tamaño, estilo y color del borde de un elemento. */
+  border-radius: 20px; /*Define qué tan redondeado quiero mi elemento.*/
+  font-size: 20px; /* Aplica el tamaño dela fuente */
+  font-family: sans-serif; /* Aplica la tipografia de la fuente */
+  opacity: 0.5%; /* Define la opacidad que esta entre 0 a 1 de manera porcentaje */
+  transition: cubic-bezier(
+    0.075,
+    0.82,
+    0.165,
+    1
+  ); /* : Las transiciones CSS le permiten cambiar los valores de las propiedades sin problemas durante una duración determinada. Debemos tener presente que una transición NO es una animación. Una transición va de un punto A a un punto B sin interrupciones o saltos en medio.*/
+}

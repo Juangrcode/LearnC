@@ -1,0 +1,29 @@
+/*  # Universal (Afecta a todo el html)*/
+/*  h1 Tipo (No recomendable) (Puede afectar todo los tipo parrafo, titulo o elemento)*/
+/*  .(nombre del identificador) (Se usa para identificar un elemento en especifico)*/
+/*  #id (No recomendable) (Aumenta especifidad)*/
+
+/*pseudo-clase*/
+
+/*(Tipo de selector)*/ :first-child {
+  color: aliceblue;
+} /* El primer elemento que este en un conjunto de mas elementos identificados, se le aplica esas propiedades*/
+
+/*(Tipo de selector)*/ :last-child {
+  color: aliceblue;
+}/*El ultimo elemento que este en el cojunto de mas elementos identificados, se le aplica las propiedades*/
+
+/*(Tipo de selector)*/ :nth-child(2n) {
+  color: aliceblue;
+}/*Los elementos elegidos por el identificador en tal conjunto de identificados, se eligen y aplica por numeros par o impar dependiendo*/
+
+/*(Tipo de selector)*/ :nth-child(2n+1) {
+  color: aliceblue;
+}/*Tipo impar*/
+
+/*pseudo-elementos*/
+
+
+/*(Tipo de selector)*/  ::first-letter {
+  color: aliceblue;
+}/*El elemento o los elementos elegidos del conjunto de identificados, se les aplica en su primera letra. (tambien sirve como last-letter o nth)
