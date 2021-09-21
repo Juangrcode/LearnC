@@ -1,0 +1,10 @@
+Básicamente, pip es como el npm de JavaScript, y el archivo requeriments.txt es como el package.json de JavaScript.
+
+Es importante recordar que esto se debe correr con el entorno virtual activado (avenv), de esta manera todas las dependencias que instalemos se guardaran para este entorno virtual (de lo contrario se guardarían de manera global, que es justo lo que no queremos).
+
+Algo importante, si estás manejando git, es bueno siempre ignorar la carpeta venv, esto porque realmente no nos importa subir todo eso al repositorio, puedes mirarlo como que venv es el node_modules de JavaScript, a fin de cuentas, cualquier otro programador que trabaje con nuestro código creará su propio entorno virtual e instalará las dependencias que dejamos en nuestro requeriments.txt.
+
+pip install (depencia) //Manera de instalar una depencia.
+pip freeze //Ver las dependecias instaladas.
+pip freeze > requeriments.txt Crea un archivo de texto donde dice que dependecias han sido instaladas y su version actual en el proyecto.
+pip install -r requeriments.txt Instala las dependencias compartidas que estan en el archivo requeriments.txt.

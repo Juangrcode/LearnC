@@ -1,0 +1,7 @@
+Las funciones lambda no deberían sustituir a las funciones def en python, usar las funciones lambda para sustituir una funcion def es una mala practica.
+.
+lambda != arrow_func.
+Si vienes de Javascript es probable que quieras usar una funcion lambda como si fuera una arrow function, no hagas eso. Una arrow function puede llegar a ser mucho mas completa y estas si pueden sustituir a una función clásica en Javascript.
+.
+Las Funciones lambda solo deberían de usarse en caso muy específicos o para competencias de programación en las que tengas que programar lo mas rápido posible.
+.
