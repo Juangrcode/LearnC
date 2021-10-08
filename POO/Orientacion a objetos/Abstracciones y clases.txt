@@ -1,0 +1,24 @@
+Ahora el concepto se aumenta cuando todo esto se ve como una sola cosa llamada Clase.
+
+Una Clase Es el modelo sobre el cual nuestros objetos se construyen.
+
+Es decir si tenemos un objeto llamado perro y este tiene sus atributos que lo describen generalmente y a su vez tiene métodos donde se define las acciones que pueda hacer ese perrito. Una clase me permite generar mas objetos (mas perros) con mismos atributos y métodos pero con resultados diferentes. ej:
+
+Objeto #1 llamado “Rocky”:
+tributo_1: color = marrón
+atributo_2: taman’o = pequen’o
+atributo_3: raza = chiguagua
+
+metodo_1: ladrar
+metodo_2: comer
+metodo_3: dormir
+
+Objeto #2 llamado "Max"
+atributo_1: color = blanco
+atributo_2: taman’o = grande
+atributo_3: raza = hunky siberiano
+
+metodo_1: ladrar
+metodo_2: comer
+metodo_3: dormir
+

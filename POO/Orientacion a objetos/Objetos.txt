@@ -1,0 +1,7 @@
+Nota de clase:
+
+Un Objeto: Son aquellos que tienen propiedades y comportamientos. Un objeto puede ser algo físico o conceptual.
+
+Una Propiedad: También llamado atributo, son las características o las propiedades que describen a un objeto. Estas propiedades siempre deben ser de forma sustantiva. ej: color, tamaño, etc.
+
+Un **Comportamiento **o método: Son las acciones que puede realizar un objeto, es decir lo que puede hacer dicho objeto.

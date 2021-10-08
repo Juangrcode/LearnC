@@ -1,4 +1,7 @@
-python3 -m venv nombre_venv
+Creando un ambiente virtual con VENV
+Creación de ambiente Virtual:
+
+py -m venv nombre_venv
 
 Usualmente el nombre del ambiente virtual es venv.
 Activación del ambiente virtual:
@@ -17,6 +20,6 @@ Crear un alias en linux/mac:
 
 alias nombre-alias="comando"
 
-`alias avenv=“source venv/bin/activate”
-"alias avenv=" venv\Scripts\activate" (Windows)
+`alias avenv=“source venv/bin/activate”``
 
+Clase del curso de Git y Github 👩🏽‍💻

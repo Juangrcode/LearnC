@@ -1,0 +1,9 @@
+El proceso es:
+• Identificar el problema, y objetos
+• Definir las clases
+• Plasmarlas en un diagrama
+Se lo puede plasmar en UML :
+• Identidad, que será el nombre de la clase.
+• Estado, que serán los atributos de la clase.
+• Comportamiento, que serán las operaciones de la clase.
+.

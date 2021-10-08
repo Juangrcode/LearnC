@@ -1,0 +1,13 @@
+Objetos identificados Uber:
+
+User: El usuario, persona, cliente.
+
+Car: UberX, UberPool, UberBlack, UberVan.
+
+Route: Ruta de un punto A al B, tu ruta de traslado.
+
+Driver: Conductor del auto, del objeto car.
+
+Payment: Card, Paypal, Cash, método de pago por el servicio.
+
+Trip: Viaje realizado del punto A al B.
